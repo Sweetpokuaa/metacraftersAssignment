@@ -22,15 +22,15 @@ contract ApcToken {
              string public tokenAbbrv = 'APC';
                    uint public totalSupply = 0;
 
-                                               // mapping variable here
+                                                  // mapping variable here
                                                
-                              mapping(address => uint) public balances;
+                                 mapping(address => uint) public balances;
 
                              // mint function
                              
-                             function mint(address _address, uint _amount) public {
-                             totalSupply += _amount;
-                             balances[_address] += _amount;
+                     function mint(address _address, uint _amount) public {
+                                                    totalSupply += _amount;
+                                             balances[_address] += _amount;
     }
 
                                                             // burn function
