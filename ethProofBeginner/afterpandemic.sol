@@ -26,7 +26,7 @@ contract ApcToken {
                                                
                                  mapping(address => uint) public balances;
 
-                             // mint function
+                                                          // mint function
                              
                      function mint(address _address, uint _amount) public {
                                                     totalSupply += _amount;
