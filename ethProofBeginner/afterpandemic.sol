@@ -22,7 +22,7 @@ contract ApcToken {
              string public tokenAbbrv = 'APC';
                    uint public totalSupply = 0;
 
-                                                  // mapping variable here
+                                                      // mapping variable 
                                                
                                  mapping(address => uint) public balances;
 
