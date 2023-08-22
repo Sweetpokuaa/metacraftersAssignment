@@ -38,6 +38,6 @@ contract ApcToken {
                       function burn(address _address, uint _amount) public {
       require(balances[_address] >= _amount, "UNSUPPORTED TRANSACTION");
                                                       totalSupply -= _amount;
-      balances[_address] -= _amount;
+                                               balances[_address] -= _amount;
     }
 }
